@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.makery.adresse.view.PersonEditDialogController">
+<AnchorPane prefHeight="300.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.makery.adresse.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="100.0" layoutY="127.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
         <columnConstraints>
@@ -37,7 +37,7 @@
       </GridPane>
       <ButtonBar layoutX="386.0" layoutY="250.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="395.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="250.0">
         <buttons>
-          <Button mnemonicParsing="false" onAction="#handleOk" text="OK" />
+          <Button defaultButton="true" mnemonicParsing="false" onAction="#handleOk" text="OK" />
             <Button mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
         </buttons>
       </ButtonBar>
